@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Formulaire javicon.jpg" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(243, 245, 249);
+        }
+        label{
+            display: block;
+            margin-bottom: px;
+        }
+        form{
+            display: block;
+            background:white;
+            margin: 0px auto;
+            border-radius: 2px;
+            width: 270px;
+            height: 350px;
+            box-shadow: 0px 0px 2px 0px black;
+            
+        }
+        .image{
+            padding-left: 25%;
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
+        h6{
+            padding-left: 25% ;
+            margin-top: 2px;
+        
+        }
+
+        i{
+            color: red;
+        }
+        .data{
+            padding-left: 16px;
+            padding-bottom: 10px;
+            
+        }
+        
+        button .data{
+            font-size: medium;
+            color: red;
+        }
+        p{
+            display: inline;
+            font-weight: normal;
+            font-size: small;
+            margin-bottom: 60px;
+        }
+        .login{
+            background-color: rgb(24, 48, 72);
+            color: white;
+            width: 238px;
+            height: 34px;
+            border-radius: 2px;
+            margin-left: 17px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="image">
+            <img src="Formulaire javicon.jpg" width="125" alt="">
+        </div>
+        <div class="data">
+            <label for="email">Email <i>*</i></label>
+            <input type="mail" name="mail" id="email" placeholder="Email" required>
+        </div>
+        <div class="data">
+            <label for="password">Password<i>*</i></label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="data">
+            <input type="checkbox">Show Password
+        </div>
+            <input class="login" type="submit" value="Log In">
+        
+        <h6 class="fin"><a href="#">Forget password?</a></h6>
+
+
+
+    </form>
+    
+</body>
+</html>
