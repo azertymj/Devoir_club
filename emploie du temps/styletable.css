@@ -1,0 +1,32 @@
+body{
+    font-family: "Akhbar Bold";
+}
+div{
+    
+}
+.table-container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .bold-word{
+    font-weight: bold;
+  }
+table{
+    margin:50px 250px 0px 250px;
+    
+}
+span.red-color{
+    color: red ;
+    font-weight: bold;
+    
+}
+span.blue-color{
+    color: rgb(34, 78, 137);
+    font-weight: bold;
+}
+.righ-left{
+    padding: 0px 30px 32px 0px;
+}
+.bottom-righ{
+    padding: 30px 0px 0px 60px;
+}

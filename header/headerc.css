@@ -1,0 +1,69 @@
+body{
+    font-family: 'Open Sans','Arial','sans-serif';
+    margin: 0;
+}
+
+header{
+    background: url(img/LN2_BG_3840x2160_03.jpg);
+    text-align: center;
+    color: white;
+    padding-bottom: 150px;
+    background-position: right center;
+    
+}
+
+header h1{
+        font-size: 6em;
+        margin-top: auto;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        padding-bottom: 15px;
+        padding-top: 150px;
+}
+header h2{
+    font-size: 2.5em;
+    margin-top: -25px;
+    font-style: italic;
+}
+header h1, header h2{
+    text-shadow: 0 0 15px black ;
+}
+
+header button{
+    padding: 15px;
+    width: 275px;
+    font-size: 1.25em;
+    background:rgb(0, 155, 235);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgb(0, 55, 135);
+}
+
+header button :hover{
+    cursor: help;
+    
+}
+
+header button :active{
+        box-shadow: none;
+        margin-top: 2px;
+        position: relative;
+        top: 2px;
+
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+.menu li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 0 0 3px black;
+}
