@@ -7,8 +7,8 @@ header{
     background: url(img/LN2_BG_3840x2160_03.jpg);
     text-align: center;
     color: white;
-    padding-bottom: 150px;
-    background-position: right center;
+    padding: 30px 30px 150px 30px;
+    background-position: center center;
     
 }
 
