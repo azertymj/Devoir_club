@@ -3,6 +3,7 @@ body{
     font-family:  sans-serif,Arial, Helvetica,;
     margin-left: 25%;
     margin-right: 25%;
+    border: solid 1px;
     
 }
 #info{
@@ -21,7 +22,7 @@ body{
     color: blue;
 }
 .color-blue-sky{
-    color: aqua;
+    color: rgb(93, 131, 129);
 }
 .left{
     float: left;
