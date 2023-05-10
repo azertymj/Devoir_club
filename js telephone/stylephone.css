@@ -1,0 +1,39 @@
+.phone {
+    width: 320px;
+    height: 640px;
+    background-color: #0f127c;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  #screen {
+    width: 280px;
+    height: 540px;
+    margin: 50px auto;
+    background-color: rgb(0, 0, 0);
+    background-position: center center;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    
+  }
+  p{
+    color: aliceblue;
+  }
+
+  button{
+
+    height: 23px;
+    width: 23px;
+    background-color: red;
+    z-index: 2;
+  }
+  
