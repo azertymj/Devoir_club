@@ -1,0 +1,52 @@
+let active =false
+let telephone = {
+    marque:'TECNO',
+    modele:'Spark-4',
+    caracteristique:{taille_ecran:'15pouce',version_android:'12'},
+    allumer: function(){
+        let active =true
+                return 'Votre '+this.marque +this.modele + 'se met en tension';
+    },
+    eteindre: function(){
+        let active =false
+        return 'Votre '+this.marque +this.modele + 'se met hors tension';
+    },
+    appele: function(numero){
+    
+        return 'Vous effectuer un appel ';
+    },
+    message: function(){
+        return 'Message envoyer';
+}
+}        
+
+    
+undefined
+telephone.allumer
+ƒ (){
+        let active =true
+                return 'Votre '+this.marque +this.modele + 'se met en tension';
+    }
+let active =false
+let telephone = {
+    marque:'TECNO',
+    modele:'Spark 4',
+    caracteristique:{taille_ecran:'15pouce',version_android:'12'},
+    allumer: function(){
+        let active =true
+                return 'Votre '+this.marque + this.modele + ' se met en tension';
+    },
+    eteindre: function(){
+        let active =false
+        return 'Votre '+this.marque + this.modele + ' se met hors tension';
+    },
+    appele: function(numero){
+    
+        return 'Vous effectuer un appel ';
+    },
+    message: function(){
+        return 'Message envoyer';
+}
+}        
+
+    
