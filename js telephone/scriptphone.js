@@ -10,8 +10,7 @@ let telephone ={
             let write =document.querySelector("p").textContent="telephone on"
             this.active=true
             varscreen.style.backgroundImage="url('IMG/tecno-tecno_camon_x.jpg')"
-            let btnp =document.getElementById(screen)
-                btnp.innerHTML+="<button>stop</button>"
+            
         }
     },
 
@@ -35,7 +34,8 @@ let telephone ={
             }else{
                 let write =document.querySelector("p").textContent="appel en cours ..."
                 varscreen.style.backgroundColor="green"
-                
+                // let btnp =document.getElementById(screen)
+                // btnp.innerHTML+="<button>stop</button>"
                 
             }
             
