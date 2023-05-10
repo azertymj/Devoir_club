@@ -17,8 +17,10 @@ function calculate() {
   console.log("reu");
 }
 
-let push = document.querySelectorAll("button")
+// let push = document.querySelectorAll("button")
 
+
+let push = document.getElementsByClassName
 
 
 
