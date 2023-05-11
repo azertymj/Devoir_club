@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+*{
+  font-family: 'poppins','Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif
+}
 .phone {
     width: 320px;
     height: 640px;
@@ -30,10 +36,12 @@
   }
 
   button{
-
-    height: 23px;
-    width: 23px;
+    display: none;
+    height: 45px;
+    width: 75px;
     background-color: red;
-    z-index: 2;
+    margin-top: 400px;
+    border-radius: 200%;
+    
   }
   
