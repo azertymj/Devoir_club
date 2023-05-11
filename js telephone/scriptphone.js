@@ -10,7 +10,12 @@ let telephone ={
             let write =document.querySelector("p").textContent="telephone on"
             this.active=true
             varscreen.style.backgroundImage="url('IMG/tecno-tecno_camon_x.jpg')"
-            
+
+            let btnp =document.getElementById("bt").style.display="block"
+            let btnt = document.querySelector("button")
+
+            // let touchbtn = document.addEventListener('click',btnt)
+                
         }
     },
 
@@ -27,16 +32,16 @@ let telephone ={
         if (this.active) {
             let numero = prompt("Entez le numero :");
             let sub = numero.substr(1,1)
-            console.log(sub)
             if (sub == 7 || sub == 4 || sub == 6 || sub == 2) {
                 let write =document.querySelector("p").textContent="Ce numéro ne peut pas être appelé"
                 document.querySelector("p").style.color="red"
             }else{
                 let write =document.querySelector("p").textContent="appel en cours ..."
+                varscreen.style.backgroundImage=""
                 varscreen.style.backgroundColor="green"
-                // let btnp =document.getElementById(screen)
-                // btnp.innerHTML+="<button>stop</button>"
-                
+                let btnp =document.getElementById("bt").style.display="block"
+                let touchbtn = document.addEventListener('click',btnp)
+                console.log(touchbtn)
             }
             
         }
@@ -51,7 +56,7 @@ let telephone ={
                 document.write("Ce numéro ne peut pas recevoir vos messages");
             }else{
                 let sms =prompt("Saisissez votre message :")
-                document.write("Message envoyé...")
+                let write =document.querySelector("p").textContent="Message envoyé...";
             }
             
         }
