@@ -10,12 +10,9 @@ let telephone ={
             let write =document.querySelector("p").textContent="telephone on"
             this.active=true
             varscreen.style.backgroundImage="url('IMG/tecno-tecno_camon_x.jpg')"
-
-            let btnp =document.getElementById("bt").style.display="block"
-            let btnt = document.querySelector("button")
-
             // let touchbtn = document.addEventListener('click',btnt)
-                
+            let btnp =document.getElementById("bt").style.visibility="visible"
+
         }
     },
 
@@ -39,9 +36,13 @@ let telephone ={
                 let write =document.querySelector("p").textContent="appel en cours ..."
                 varscreen.style.backgroundImage=""
                 varscreen.style.backgroundColor="green"
-                let btnp =document.getElementById("bt").style.display="block"
-                let touchbtn = document.addEventListener('click',btnp)
-                console.log(touchbtn)
+                let btnp =document.getElementById("bt").style.visibility="visible"
+                let touchbtn = document.querySelector("button") 
+                touchbtn.addEventListener('click',()=>{
+                    console.log("touchbtn");
+                    this.allumer()
+                })
+                // console.log(touchbtn)
             }
             
         }
