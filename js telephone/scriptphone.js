@@ -18,7 +18,9 @@ let telephone ={
 
     eteindre:function() {
         if (this.active) {
-            let write =document.querySelector("p").textContent="telephone off"
+            setTimeout(() => {
+                let write =document.querySelector("p").textContent="telephone off"
+            }, 2000);
             varscreen.style.backgroundImage=""
             varscreen.style.backgroundColor="black"
             this.active=false
