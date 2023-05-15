@@ -50,7 +50,6 @@ let telephone ={
                 let touchbtn = document.querySelector("button") 
                 touchbtn.addEventListener('click',()=>{
                     this.acceuil()
-                    
                 })
                 // console.log(touchbtn)
             }
